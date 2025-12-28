@@ -1,5 +1,5 @@
 body {
-    background-image: linear-gradient(#fe34cc, #933131, 234);
+    background-image: linear-gradient(#fe34cc, #933131);
 
 }
 #calculator {
@@ -11,4 +11,5 @@ body {
 #top {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
+    
 }
