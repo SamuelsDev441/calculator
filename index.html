@@ -3,27 +3,36 @@
   <head>
     <title>Calculator</title>
     <style>
+      body {
+        font-family: Arial, sans-serif;
+      }
       .calculator {
   border-radius: 5px;
   background-color: #333;
   display: flex;
   padding: 50px;
 }
-.num {
+.num , .ce{
   border-radius: 50%;
   background-color: #444;
   width: 100%;
-  
 }
+
+      .ce {
+        background-color: yellow;
+      }
       .nums {
         display: grid;
   grid-template-columns: 1fr 1fr 1fr;
         background-color: #222;
         border-radius: 3px;
+        color: white;
       }
       input[type="text"] {
         border-radius: 5px;
       }
+      
+      
     </style>
   </head>
   <body>
@@ -45,6 +54,9 @@
       </div>
       <div class="ops">
         <div class="plus"><p>+</p></div>
+      </div>
+      <div class="ce">
+        <p>CE</p>
       </div>
     </div>
     <script src="script.js">
