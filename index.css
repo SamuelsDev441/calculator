@@ -9,8 +9,8 @@ body {
 }
 
 #calculator {
-    background-color: #e6e6e6; /* light gray card */
-    color: #111;
+    background-color: #111; /* light gray card */
+    color: #e6e6e6;
     border-radius: 8px;
     padding: 24px;
     width: 360px;
