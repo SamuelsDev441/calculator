@@ -17,6 +17,9 @@ body {
     max-width: 95%;
     box-shadow: 0 10px 30px rgba(0,0,0,0.35);
 }
+#display {
+    background-color: #333;
+}
 
 #top {
     display: grid;
